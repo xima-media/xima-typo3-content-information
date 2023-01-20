@@ -1,14 +1,14 @@
 ..  include:: /Includes.rst.txt
 
-=========
-|project|
-=========
+===================
+Content Information
+===================
 
 :Extension key:
-    |extension-key|
+    content_information
 
 :Package name:
-    |package-name|
+    xima/content-information
 
 :Version:
     |release|
@@ -17,7 +17,7 @@
     en
 
 :Author:
-    |author|
+    XIMA MEDIA GmbH
 
 :License:
     This document is published under the
@@ -29,7 +29,7 @@
 
 ----
 
-|abstract|
+This extension provides useful information based on the content in your TYPO3 CMS installation.
 
 ----
 

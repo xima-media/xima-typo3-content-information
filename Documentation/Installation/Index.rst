@@ -11,7 +11,7 @@ the extension EXT:content_information via composer:
 
 .. code-block:: bash
 
-   composer require xima/content_information
+   composer require xima/content-information
 
 Clear all caches
 ----------------
