@@ -1,8 +1,9 @@
 {
-    "name": "xima/content_information",
+    "name": "xima/content-information",
     "type": "typo3-cms-extension",
     "license": "GPL-2.0-or-later",
     "description": "This extension provides useful information based on the content in your TYPO3 CMS installation.",
+    "version": "0.1.1",
     "authors": [
         {
             "name": "Dennis Patzer",
