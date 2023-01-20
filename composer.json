@@ -1,0 +1,28 @@
+{
+    "name": "xima/content_information",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "description": "This extension provides useful information based on the content in your TYPO3 CMS installation.",
+    "authors": [
+        {
+            "name": "Dennis Patzer",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-backend": "^11.5",
+        "typo3/cms-beuser": "^11.5",
+        "typo3/cms-fluid": "^11.5",
+        "typo3/cms-form": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xima\\ContentInformation\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "content_information"
+        }
+    }
+}

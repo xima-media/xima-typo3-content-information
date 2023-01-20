@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages">
+        <header/>
+        <body>
+            <trans-unit id="filter">
+                <source>Filter</source>
+            </trans-unit>
+
+            <trans-unit id="reset">
+                <source>Reset</source>
+            </trans-unit>
+
+            <trans-unit id="pluginContentElement">
+                <source>Plugin/Content element</source>
+            </trans-unit>
+
+            <trans-unit id="contentElements">
+                <source>Content elements</source>
+            </trans-unit>
+
+            <trans-unit id="showDeleted">
+                <source>Show deleted elements</source>
+            </trans-unit>
+
+            <trans-unit id="matches">
+                <source>Matches</source>
+            </trans-unit>
+            <trans-unit id="usage">
+                <source>Usage</source>
+            </trans-unit>
+
+            <trans-unit id="dependencies">
+                <source>Dependencies</source>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo">
+                <source>Extension info</source>
+            </trans-unit>
+
+            <trans-unit id="uid">
+                <source>UID</source>
+            </trans-unit>
+
+            <trans-unit id="page">
+                <source>Page</source>
+            </trans-unit>
+
+            <trans-unit id="CType">
+                <source>CType</source>
+            </trans-unit>
+
+            <trans-unit id="list_type">
+                <source>list_type</source>
+            </trans-unit>
+
+            <trans-unit id="colPos">
+                <source>colPos</source>
+            </trans-unit>
+
+            <trans-unit id="elementDeleted">
+                <source>Element deleted</source>
+            </trans-unit>
+
+            <trans-unit id="pageDeleted">
+                <source>Page deleted</source>
+            </trans-unit>
+
+            <trans-unit id="viewPage">
+                <source>Show page</source>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.title">
+                <source>Title</source>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.description">
+                <source>Description</source>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.category">
+                <source>Category</source>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.author">
+                <source>Author</source>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.author.email">
+                <source>Author E-Mail</source>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.version">
+                <source>Version</source>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.constraints">
+                <source>Constraints</source>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.constraints.depends">
+                <source>Depends</source>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.constraints.conflicts">
+                <source>Conflicts</source>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.constraints.suggests">
+                <source>Suggests</source>
+            </trans-unit>
+
+            <trans-unit id="extensionDependencies.intro">
+                <source>The extension "%s" is used by:</source>
+            </trans-unit>
+
+            <trans-unit id="extensionDependencies.none">
+                <source>The extension "%s" is not used by any other extension.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

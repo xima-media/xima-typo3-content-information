@@ -1,0 +1,66 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+
+<f:form name="filter" controller="Index" objectName="filter" object="{filter}" method="post">
+    <div class="row row-cols-auto align-items-end g-3">
+        <div class="col">
+            <label for="extensionKey" class="form-label">Extension</label>
+            <f:form.select property="extensionKey"
+                           class="form-select"
+                           additionalAttributes="{submitOnChangeAttr}"
+                           id="extensionKey">
+                <f:form.select.option value="">-</f:form.select.option>
+
+                <f:for each="{extensionOptions}" as="extension" key="key">
+                    <f:form.select.option value="{key}">{extension}</f:form.select.option>
+                </f:for>
+            </f:form.select>
+        </div>
+
+        <div class="col">
+            <label for="element" class="form-label"><f:translate key="pluginContentElement"/></label>
+
+            <f:form.select property="element"
+                           class="form-select"
+                           additionalAttributes="{submitOnChangeAttr}"
+                           id="element">
+                <f:form.select.option value="">-</f:form.select.option>
+
+                <f:if condition="{elements.plugins -> f:count()} > 0">
+                    <f:form.select.optgroup label="Plugins">
+                        <f:for each="{elements.plugins}" as="plugin" key="key">
+                            <f:form.select.option value="{key}">{plugin}</f:form.select.option>
+                        </f:for>
+                    </f:form.select.optgroup>
+                </f:if>
+
+                <f:form.select.optgroup label="{f:translate(key: 'contentElements')}">
+                    <f:for each="{elements.contentElements}" as="contentElement" key="key">
+                        <f:form.select.option value="{key}">{contentElement}</f:form.select.option>
+                    </f:for>
+                </f:form.select.optgroup>
+            </f:form.select>
+        </div>
+
+        <div class="col">
+            <div class="form-check">
+                <f:form.checkbox property="deleted" value="1" id="deleted" class="form-check-input" />
+                <label class="form-check-label" for="deleted">
+                    <f:translate key="showDeleted"/>
+                </label>
+            </div>
+
+        </div>
+
+        <div class="col">
+            <f:form.button type="submit" name="operation" value="filter" class="btn btn-light">
+                <f:translate key="filter"/>
+            </f:form.button>
+            <f:form.button type="submit" name="operation" value="reset-filters" class="btn btn-link">
+                <f:translate key="reset"/>
+            </f:form.button>
+        </div>
+    </div>
+</f:form>
+
+</html>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages">
+        <header/>
+        <body>
+            <trans-unit id="filter">
+                <target>Filtern</target>
+            </trans-unit>
+
+            <trans-unit id="reset">
+                <target>Zurücksetzen</target>
+            </trans-unit>
+
+            <trans-unit id="pluginContentElement">
+                <target>Plugin/Inhaltselement</target>
+            </trans-unit>
+
+            <trans-unit id="contentElements">
+                <target>Inhaltselemente</target>
+            </trans-unit>
+
+            <trans-unit id="showDeleted">
+                <target>Gelöschte Elemente anzeigen</target>
+            </trans-unit>
+
+            <trans-unit id="matches">
+                <target>Treffer</target>
+            </trans-unit>
+
+            <trans-unit id="usage">
+                <target>Verwendung</target>
+            </trans-unit>
+
+            <trans-unit id="dependencies">
+                <target>Abhängigkeiten</target>
+            </trans-unit>
+            <trans-unit id="extensionInfo">
+                <target>Extension-Info</target>
+            </trans-unit>
+
+            <trans-unit id="uid">
+                <target>UID</target>
+            </trans-unit>
+
+            <trans-unit id="page">
+                <target>Seite</target>
+            </trans-unit>
+
+            <trans-unit id="CType">
+                <target>CType</target>
+            </trans-unit>
+
+            <trans-unit id="list_type">
+                <target>list_type</target>
+            </trans-unit>
+
+            <trans-unit id="colPos">
+                <target>colPos</target>
+            </trans-unit>
+
+            <trans-unit id="elementDeleted">
+                <target>Element gelöscht</target>
+            </trans-unit>
+
+            <trans-unit id="pageDeleted">
+                <target>Seite gelöscht</target>
+            </trans-unit>
+
+            <trans-unit id="viewPage">
+                <target>Seite anzeigen</target>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.title">
+                <target>Titel</target>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.description">
+                <target>Beschreibung</target>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.category">
+                <target>Kategorie</target>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.author">
+                <target>Autor</target>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.author.email">
+                <target>Autor E-Mail</target>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.version">
+                <target>Version</target>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.constraints">
+                <target>Beschränkungen</target>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.constraints.depends">
+                <target>Abhänigkeiten</target>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.constraints.conflicts">
+                <target>Konflikte</target>
+            </trans-unit>
+
+            <trans-unit id="extensionInfo.constraints.suggests">
+                <target>Vorschläge</target>
+            </trans-unit>
+
+            <trans-unit id="extensionDependencies.intro">
+                <target>Die Extension "%s" wird genutzt von:</target>
+            </trans-unit>
+
+            <trans-unit id="extensionDependencies.none">
+                <target>Die Extension "%s" wird von keinen anderen Extensions genutzt.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

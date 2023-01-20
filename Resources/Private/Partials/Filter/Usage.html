@@ -1,0 +1,57 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+
+<p class="alert alert-info" role="alert">
+    <strong>{entities -> f:count()} <f:translate key="matches"/></strong>
+</p>
+<f:if condition="{entities}">
+    <div class="table-fit">
+        <table class="table table-striped table-hover">
+            <thead>
+            <tr>
+                <th>
+                    <f:translate key="uid"/>
+                </th>
+                <th>
+                    <f:translate key="page"/>
+                </th>
+                <th>
+                    <f:translate key="CType"/>
+                </th>
+                <th>
+                    <f:translate key="list_type"/>
+                </th>
+                <th>
+                    <f:translate key="colPos"/>
+                </th>
+                <th>
+                    <f:translate key="elementDeleted"/>
+                </th>
+                <th>
+                    <f:translate key="pageDeleted"/>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <f:for each="{entities}" as="entity">
+                <tr>
+                    <td>
+                        {entity.contentUid}
+                    </td>
+                    <td>
+                        <f:be.link route="web_layout"
+                                   parameters="{id: entity.pagesUid}">{entity.pageTitle}</f:be.link>
+                    </td>
+                    <td>{entity.CType}</td>
+                    <td>{entity.list_type}</td>
+                    <td>{entity.colPos}</td>
+                    <td>{entity.contentDeleted}</td>
+                    <td>{entity.pagesDeleted}</td>
+                </tr>
+            </f:for>
+            </tbody>
+        </table>
+    </div>
+</f:if>
+
+</html>
