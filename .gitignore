@@ -3,6 +3,9 @@
 .idea
 .DS_Store
 Thumbs.db
+/vendor
+/public
+/.env
 
 # ignore generated documentation
 *GENERATED*
