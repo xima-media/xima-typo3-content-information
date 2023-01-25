@@ -31,6 +31,12 @@ Content Information
 
 This extension provides useful information based on the content in your TYPO3 CMS installation.
 
+Therefor the extension introduces a new backend module.
+
+Features:
+
+* Display whether and where a plugin or content element of a certain extension is currently used
+
 ----
 
 **Table of Contents:**
