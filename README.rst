@@ -1,8 +1,10 @@
-=====================================
+=======================================
 TYPO3 extension ``content_information``
-=====================================
+=======================================
 
 This extension provides useful information based on the content in your TYPO3 CMS installation.
+
+Therefor the extension introduces a new backend module.
 
 Features:
 

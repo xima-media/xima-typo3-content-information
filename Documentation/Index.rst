@@ -40,6 +40,7 @@ This extension provides useful information based on the content in your TYPO3 CM
     :titlesonly:
 
     Installation/Index
+    Usage/Index
 
 ..  Meta Menu
 

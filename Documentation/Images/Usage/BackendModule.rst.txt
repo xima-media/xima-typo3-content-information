@@ -1,0 +1,5 @@
+..  figure:: /Images/Usage/BackendModule.png
+    :alt: backend module
+    :class: with-shadow
+
+    The backend module with various filtering options
