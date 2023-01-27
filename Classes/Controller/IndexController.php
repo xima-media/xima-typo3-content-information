@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Xima\ContentInformation\Controller;
 
 use TYPO3\CMS\Backend\Template\ModuleTemplateFactory;
-use TYPO3\CMS\Extbase\Mvc\Controller  \ActionController;
+use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 use Xima\ContentInformation\Configuration;
 use Xima\ContentInformation\Domain\Repository\ContentRepository;
 use Xima\ContentInformation\Entity\Filter;
