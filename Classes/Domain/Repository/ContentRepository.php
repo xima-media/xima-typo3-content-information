@@ -42,6 +42,6 @@ class ContentRepository
 
     $queryBuilder->andWhere($queryBuilder->expr()->in('tt_content.deleted', true === $filter->getDeleted() ? [0, 1] : [0]));
 
-    return $queryBuilder->executeQuery()->fetchAllAssociative();
+    return $queryBuilder->execute()->fetchAllAssociative();
   }
 }
