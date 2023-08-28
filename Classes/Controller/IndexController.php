@@ -14,16 +14,13 @@ use Xima\ContentInformation\Utility\ContentInformationUtility;
 
 class IndexController extends ActionController
 {
-  protected ModuleTemplateFactory     $moduleTemplateFactory;
   protected ContentRepository         $contentRepository;
   protected ContentInformationUtility $contentInformationUtility;
 
   public function __construct(
-    ModuleTemplateFactory $moduleTemplateFactory,
     ContentRepository $contentRepository,
     ContentInformationUtility $contentInformationUtility
   ) {
-    $this->moduleTemplateFactory     = $moduleTemplateFactory;
     $this->contentRepository         = $contentRepository;
     $this->contentInformationUtility = $contentInformationUtility;
   }
@@ -50,14 +47,6 @@ class IndexController extends ActionController
         'onchange' => 'this.form.submit()'
       ],
     ]);
-
-    $moduleTemplate = $this->moduleTemplateFactory->create($this->request);
-
-    $moduleTemplate->setContent($this->view->render());
-
-    return $this->htmlResponse(
-      $moduleTemplate->renderContent()
-    );
   }
 
   /**
